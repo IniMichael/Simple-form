@@ -1,0 +1,120 @@
+ /* @media screen and (max-width:760px){
+    .form{
+        width: 100px
+    }
+}
+body{
+    background-color: #3274c1;
+    padding: 100px 30px 100px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form{
+    background-color: white;
+    padding:30px 20px 30px 20px;
+    width: 300px;
+    margin: 30px auto;
+}
+
+input{
+    width: 290px;
+    padding-left: 10px;
+}
+
+label{
+    display: block;
+    padding: 5px;
+    padding-left: 0px;
+    padding-bottom: 1px;
+}
+
+.input{
+    background-color: white;
+    margin: 5px;
+}
+
+div .bio{
+    padding-left: 10px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.about{
+    margin-bottom: 1px;
+    padding-bottom: 1px;
+}
+
+div .button1{
+    background-color: #3274c1;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    width: 150px;
+    border: none;
+    margin-left: 70px;
+} */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3274C1;
+    height: 120vh;
+}
+
+.form {
+    background-color: white;
+    width: 700px;
+    min-height: 500px;
+    margin: 50px auto;
+    padding:56px;
+    border-radius: 12px;
+}
+
+@media screen and (max-width:900px) {
+    .form{
+        /* background-color: red; */
+        width: 100%;
+        padding: 20px;
+        height: 100%;
+        margin: 0;
+    }
+}
+
+.input-wrapper {
+    margin-bottom: 20px;
+}
+
+.general-label {
+    color: #000;
+    font-weight: 600;
+    font-size: 20px;
+    display: block;
+    text-transform: capitalize;
+    margin-bottom: 12px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 20px 25px;
+    border: 1px solid #908F8F;
+}
+
+.cta-wrapper {
+    text-align: center;
+}
+
+.form-cta {
+    background-color: #3274C1;
+    border: 0;
+    color: white;
+    font-size: 16px;
+    padding: 12px 30px;
+    width: 50%;
+    border-radius: 3px;
+}
